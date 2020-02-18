@@ -8,7 +8,7 @@
 
 ### 项目代码
 - [项目代码链接](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/Sparkify-project.ipynb)
-- [项目报告链接](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/Sparkify-project.ipynb)
+- [项目报告链接](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/Sparkify-%E9%A1%B9%E7%9B%AE%E6%8A%A5%E5%91%8A.md)
 - 代码运行，需要配置语言环境：PySpark2.4、JDK8、python3.7
 
 ### 联系方式
