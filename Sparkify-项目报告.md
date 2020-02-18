@@ -103,21 +103,21 @@
 ### 性别(gender)
 - 可以看出，相对而言男性客户流失比例较高,可作为区分特征之一。
 
-![png](output_109_0.png)
+![png](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/images/output_109_0.png)
 
 ### 注册天数(alive_days)
 - 由于未流失用户一直在使用app，如期比流失用户产生更多的数据量、具有更长的注册时间：
-![png](output_112_1.png)
+![png](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/images/output_112_1.png)
 
 ### 听歌时长(length)
 - 经比较发现，流失客户和未流失客户的平均听歌时长基本相同，此特征无法对两列用户进行有效区别，不能作为区分特征之一。
-![png](output_115_1.png)
+![png](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/images/output_115_1.png)
 
 ### 用户等级(level)
 - 付费客户中，未流失和流失的用户比例：
-![png](output_118_1.png)
+![png](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/images/output_118_1.png)
 - 流失用户中，免费与付费客户的比例：
-![png](output_119_1.png)
+![png](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/images/output_119_1.png)
 
 通过对比发现，在流失和未流失两类客户中，付费会员的比例基本相当。而且付费行为并未有效阻止客户流失，推测在软件的用户体验上还有待进一步改善。要重点关注付费用户的流失情况，并作为区分特征之一。
 
@@ -126,29 +126,29 @@
 
 - PUT数量比较：
 
-![png](output_122_1.png)
+![png](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/images/output_122_1.png)
 
 - GET数量比较：
 
-![png](output_123_1.png)
+![png](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/images/output_123_1.png)
 
 #### 为了查看真实情况，需进一步计算和观察用户行为频率：
 - PUT频率比较：
 
-![png](output_126_1.png)
+![png](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/images/output_126_1.png)
 
 - GET频率比较：
 
-![png](output_127_1.png)
+![png](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/images/output_127_1.png)
 
 通过进一步比较发现，用户在puts和gets频率的比较上，仅后者有较明显的区别，可以将其作为用户区分的特征之一。
 
 ### 用户操作页面
 查看page列的总体情况，对比未流失和流失客户的行为总数。
-![png](output_135_0.png)
+![png](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/images/output_135_0.png)
 因NextSong一项的数量明显多，影响其他项的对比，所以将其去掉后重新绘图：
 
-![png](output_137_0.png)
+![png](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/images/output_137_0.png)
 
 - 以上图表展示了用户查看页面的平均次数，并**`未考虑用户注册至今/流失的时长(注册天数alive_days)影响`**，即并未考虑用户行为的频率问题，有待进一步探索。
 - 上图如预期所示，大部分page项在数量统计上，未流失>流失，**`需特别关注其中未流失≈流失，甚至未流失<流失的page项`**，如Roll Advert、Upgrade。
@@ -156,35 +156,35 @@
 ### 添加好友
 通过观察发现，未流失和流失用户添加好友的频率基本一致，后者稍微较多，可以作为区分特征之一。
 
-![png](output_141_1.png)
+![png](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/images/output_141_1.png)
 
 ### 添加至播放列表
 通过观察发现，未流失和流失用户添加歌曲至列表的频率，后者较多，可以作为区分特征之一。
 
-![png](output_144_1.png)
+![png](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/images/output_144_1.png)
 
 
 ### 页面出错
 通过观察发现，未流失和流失用户网络错误的频率前者较多。但从逻辑上讲，出错多必定影响用户体验，不适合作为区分特征之一。
 
-![png](output_147_1.png)
+![png](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/images/output_147_1.png)
 
 
 ### 查看帮助
 通过观察发现，未流失和流失用户查看帮助的频率后者较多，或是因为流失客户对app的现有功能不满，有较多的求助情况，可以作为区分特征之一。
 
-![png](output_150_1.png)
+![png](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/images/output_150_1.png)
 
 ### 广告
 通过观察发现，流失用户观看广告较多，频率明显高，此特征应重点关注，作为区分特征之一。
 
-![png](output_153_1.png)
+![png](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/images/output_153_1.png)
 
 
 ### 保存设置
 通过观察发现，未流失和流失用户虽然前者Setting的次数多，但后者频率较高。从逻辑上讲，用户的Setting动作，在一定程度上讲，是其对app依赖和不满的综合体现，应将其作为区别特征之一
 
-![png](output_156_1.png)
+![png](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/images/output_156_1.png)
 
 
 ### 升级降级
@@ -193,12 +193,12 @@
 
 
 #### 主动Upgrade的频率：
-![png](output_159_1.png)
+![png](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/images/output_159_1.png)
 
 - 通过观察发现，未流失和流失用户，后者升级频率较高。从逻辑上讲，用户的升级动作，是其付费或参与活动体现，升级后应具备更好的用户体验，然而依然会流失，侧面说明app的体验有待改善。
 
 #### 主动Downgrade的频率：
-![png](output_160_1.png)
+![png](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/images/output_160_1.png)
 
 - 未流失和流失用户降级的频率，前者稍多,理论上降级务必影响用户体验，但实际并非如此。
 - 结合升降级来看，流失的客户主动升级多，主动降级少，可以推测该部分用户注重app体验，其更倾向通过升级来提高服务，而非通过降级来提高性价比，但最终仍然流失的原因，或为通过不断升级，其发现app体验并未达到其预期，导致最终放弃和注销产品。应将二者作为区别特征之一。
@@ -206,12 +206,12 @@
 ### 踩和赞
 
 #### '踩'的频率：
-![png](output_163_1.png)
+![png](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/images/output_163_1.png)
 
 明显看出，流失用户踩的频率高，应作为特征之一。
 
 #### '赞'的频率：
-![png](output_165_1.png)
+![png](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/images/output_165_1.png)
 
 通过观察发现，未流失和流失用户点赞的频率基本一致，前者稍微较多，不能作为区分特征。
 
