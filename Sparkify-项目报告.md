@@ -96,7 +96,7 @@
 ### 用户听歌数
 - 按照0-23h划分，绘制散点图，查看用户在一天中的活动情况，可发现用户多在晚上和凌晨听歌较多：
 
-![The songs count in hours](output_104_0.png)
+![The songs count in hours](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/images/output_104_0.png)
 
 ### **`注：以下柱状图中，label值为1表示流失用户，label值为0表示未流失用户`**
 
