@@ -7,7 +7,8 @@
 观察和分析用户数据，关注用户注销的行为(用户流失，取关或注销Sparkify，不再产生用户互动数据记录，不再有转化为付费会员的可能)，并从其行为数据信息中提取相关特征，并利用机器学习模型进行拟合，进而选用表现较优的模型，对后期潜在的取关行为进行预测。
 
 ### 项目代码
-- [项目代码和报告的链接](https://github.com/TravisChoi07/Machine_learning_projects.git)
+- [项目代码链接](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/Sparkify-project.ipynb)
+- [项目报告链接](https://github.com/TravisChoi07/Machine_learning_projects/blob/master/Sparkify-project.ipynb)
 - 代码运行，需要配置语言环境：PySpark2.4、JDK8、python3.7
 
 ### 联系方式
