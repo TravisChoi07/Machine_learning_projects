@@ -284,3 +284,18 @@
 - 一是客观**`数据集规模`**较小，难免会影响模型训练的准确性；
 - 二是特征工程和监督学习或有更好的处理方式，比如采用其他机器学习模型进行建模；
 - 三是训练结果，F1Score在70~80%并非十分理想，后续进一步挖掘数据特征(如地域、艺术家)，仍有继续提高的可能。
+
+### 参考文献/网址
+- [Report template](https://github.com/udacity/machine-learning/blob/master/projects/capstone/capstone_report_template.md)
+- [Spark 2.4.5](https://spark.apache.org/docs/latest/sql-getting-started.html)
+- [JDK install](https://blog.csdn.net/weixin_45281949/article/details/104247038)
+- [PySpark Classification and regression](http://spark.apache.org/docs/latest/ml-classification-regression.html#gradient-boosted-tree-classifier)
+- [pyspark.ml package](http://spark.apache.org/docs/latest/api/python/pyspark.ml.html#pyspark.ml.classification.DecisionTreeClassifier)
+- [pandas.DataFrame.to_json](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_json.html)
+- [pyspark.dataframe聚合:agg](https://blog.csdn.net/weixin_42864239/article/details/94456765)
+- [关于pyspark.sql中udf返回类型](https://blog.csdn.net/dkjkls/article/details/90742439)
+- [pyspark.dataframe：join操作](https://www.jianshu.com/p/310bc198ea19)
+- [HTTP常见状态码200、404](https://www.cnblogs.com/starof/p/5035119.html)
+- [pyspark.dataframe 中更改str为float](https://cloud.tencent.com/developer/ask/176110)
+- [时间戳转换为时间格式](https://blog.csdn.net/LeonTom/article/details/83586469)
+- [matplotlib.pyplot 双柱状图](https://www.jianshu.com/p/8c4a29a0cfc2)
